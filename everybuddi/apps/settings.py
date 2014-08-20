@@ -18,8 +18,8 @@ class Config(object):
 class Production(Config):
     debug = True
     CSRF_ENABLED = False
-    ADMIN = "astyfx@gmail.com"
-    SQLALCHEMY_DATABASE_URI = 'mysql+gaerdbms:///blog?instance=baeggot-personal-project:ll-personal-blog'
+    ADMIN = "everybuddi.manager@gmail.com"
+    SQLALCHEMY_DATABASE_URI = 'mysql+gaerdbms:///everybuddi?instance=everybuddi-project:everybuddi-first-db'
     migration_directory = 'migrations'
 
 
