@@ -1,0 +1,50 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+ @media (max-width: 960px) {
+    .container {
+        width : 480px;
+    }
+
+    .nav-frame {
+        width:200px;
+    }
+
+    /*.container-img {*/
+          /*display : none;*/
+    /*}*/
+}
+
+.container {
+    margin:0;
+    padding:0;
+}
+
+.nav-frame {
+    float: left;
+    text-align: center;
+}
+
+.home-frame {
+    float: left;
+
+}
+
+#miniprofile-frame {
+    border: 1px solid black;
+    width: 180px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.nav-frame > nav nav-pills {
+    display: inline-block;
+}
+
+.nav-frame > nav nav-pills > li > a {
+    padding: 0;
+    margin:0;
+}
+

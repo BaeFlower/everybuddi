@@ -32,3 +32,21 @@ class Language(db.Model):
     level = db.Column(db.Integer, nullable=False)
     user_id = db.Column(db.ForeignKey('user.id'))
     user_language = db.relationship('User', backref=db.backref('user_language', cascase='all, delete-orphan', lazy='dynamic'))
+
+
+class Event(db.Model):
+    __tablename__ = 'event'
+    id = db.Column(db.Integer, primary_key=True)
+    host_id = db.Column(db.ForeignKey('user.id'))
+    host = db.relationship('User', backref=db.backref('events', cascade='all, delete-orphan', lazy='dynamic'))
+    title = db.Column(db.String(255), nullable=False)
+    content = db.Column(db.Text(), nullable=False)
+    event_date = db.Column(db.String(255), nullable=False)
+    event_date_created = db.Column(db.DateTime(), default=db.func.now())
+    place_school = db.Column(db.String(255))
+    contact = db.Column(db.String(255))
+    cost = db.Column(db.Integer)
+    limited_member_num = db.Column(db.Integer)
+    attend_member_num = db.Column(db.Integer)
+    recommend_count = db.Column(db.Integer)
+    location = db.Column(db.String(255))
