@@ -1,12 +1,16 @@
-
+# -*- coding: utf-8 -*-
 
 from flask import request, redirect, url_for, render_template, Flask
 from apps import app
+from apps.forms import EventsForm
 
 
 @app.route('/events/events_create', methods=['GET', 'POST'])
 def events_create():
-    return render_template('events/events_create.html')
+    form = EventsForm()
+
+
+    return render_template('events/events_create.html', form=form)
 
 
 @app.route('/events/events_list', methods=['GET'])

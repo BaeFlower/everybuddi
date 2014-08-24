@@ -65,13 +65,10 @@
 		<ol class="breadcrumb events-header recent-align events-third-header" style="width:1300px;">
 			<li><a href="#">Recent</a></li>
 			<li style="margin-right:1000px;"><a href="#">Popularity</a></li>
-<<<<<<< HEAD
 			<button type="button" class="btn btn-default btn-lg active organize-btn">
                 <a href="{{ url_for('events_create') }}">Organize New Event</a>
             </button>
-=======
 			<button type="button" class="btn btn-default btn-lg active organize-btn events-organize-btn">Organize New Event</button>
->>>>>>> f385bf7fd3d5a9a988d4c5a9373d01b30ee8c8b7
 		</ol>
 		<!-- recent, popularity, new event end -->
 	</div>
@@ -97,29 +94,30 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="event-summary">
-				<div class="row">
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail" style="width:322px; height:202px; margin-botton:0px;">
-							<img data-src="holder.js/100%x180" alt="..." src="img/keira.jpg" style="margin-left:0px; margin-right:0px;">
-							<div class="caption" style="height:118px; width:321px; padding-left:0px;">
-								<h3 style="margin-top:0px;"><a href="#">Party on this Friday !</a></h3>
-								<ul class="list-group">
-									<li class="list-group-item">Party</li>
-									<li class="list-group-item">Host: Jaeeun Kim</li>
-									<li class="list-group-item">2014/08/15 FRI</li>
-									<li class="list-group-item">Ajou Univ</li>
-									<li class="list-group-item">Suwon
-										<img src="img/likebutton.png" style="width:30px; margin-left:110px;">5
-										<img src="img/attendbutton.png" style="width:25px; margin-left:20px;">1/5</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		</div>
+		<div class="event-summary">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail" style="width:322px; height:202px; margin-botton:0px;">
+                        <img data-src="holder.js/100%x180" alt="..." src="img/keira.jpg" style="margin-left:0px; margin-right:0px;">
+                        <div class="caption" style="height:118px; width:321px; padding-left:0px;">
+                            <h3 style="margin-top:0px;"><a href="#">Party on this Friday !</a></h3>
+                            <ul class="list-group">
+                                <li class="list-group-item">Party</li>
+                                <li class="list-group-item">Host: Jaeeun Kim</li>
+                                <li class="list-group-item">2014/08/15 FRI</li>
+                                <li class="list-group-item">Ajou Univ</li>
+                                <li class="list-group-item">Suwon
+                                    <img src="img/likebutton.png" style="width:30px; margin-left:110px;">5
+                                    <img src="img/attendbutton.png" style="width:25px; margin-left:20px;">1/5
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
 			<!-- event summary showing end -->
 
 {% endblock %}
