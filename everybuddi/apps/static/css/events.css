@@ -1,0 +1,66 @@
+.breadcrumb {
+	height:70px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	background-color: #ffffff;
+}
+
+.recent-align {
+	height:50px;
+	text-align: left;
+	font-size:15px;
+	background-color: #ffffff;
+	width:500px;
+	margin-left: 30px;
+	margin-bottom: 0px;
+}
+
+
+.dropdown {
+	width:150px;
+	position: absolute;
+}
+
+
+.btn-block {
+	width:150px;
+	height: 34px;
+	padding: 0px 16px 0px 16px;
+	text-align: center;
+	margin: auto;
+}
+
+.organize-btn {
+	height:17px;
+	font-size: 14px;
+	padding: 0 0 0 0;
+}
+
+.header {
+	width:1380px;
+	height:100px;
+}
+
+.second-header {
+	width:1380px;
+	height:34px;
+}
+
+.third-header {
+	width:1380px;
+	height:20px;
+}
+
+.event-summary-whole {
+	width:1380px;
+	height:auto;
+}
+
+.event-summary {
+	margin: 30px;
+	width:322px;
+	height:auto;
+
+}

@@ -1,0 +1,75 @@
+{% extends "layout.html" %}
+
+{% block contents %}
+
+	<link rel="stylesheet" type="text/css" href="events_detail.css">
+
+	<div class="events-detail">
+		<div class="events-detail-header">
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<h2>Party on this Friday !</h2>
+						<img data-src="holder.js/300x300" src="img/keira.jpg">
+						<img src="img/likebutton.png" style="margin-left:220px;">5
+						<img src="img/attendbutton.png">1/5
+						<img src="img/sharebutton.jpg">
+					</div>
+					<div class="attendee-button-left">
+						<img data-src="holder.js/300x300" src="img/attendeebuttonleft.png">
+					</div>
+					<div class="attendee">
+						<img data-src="holder.js/300x300" src="img/keira.jpg">
+						<img data-src="holder.js/300x300" src="img/keira.jpg">
+						<img data-src="holder.js/300x300" src="img/keira.jpg">
+						<img data-src="holder.js/300x300" src="img/keira.jpg">
+						<img data-src="holder.js/300x300" src="img/keira.jpg">
+						<img data-src="holder.js/300x300" src="img/keira.jpg">
+						<img data-src="holder.js/300x300" src="img/keira.jpg">
+						<img data-src="holder.js/300x300" src="img/keira.jpg">
+					</div>
+					<div class="attendee-button-right">
+						<img data-src="holder.js/300x300" src="img/attendeebuttonright.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="events-detail-container">
+		<div class="caption">
+			<dl class="dl-horizontal">
+				<dt>Host</dt>
+				<dd>Jaeeun Kim</dd>
+				<dt>Theme</dt>
+				<dd>Party</dd>
+				<dt>When</dt>
+				<dd>2014/08/15 FRI 7pm</dd>
+				<dt>Where</dt>
+				<dd>Ajou Univ Suwon PlanB</dd>
+				<dt>Cost</dt>
+				<dd>10,000 won</dd>
+				<dt>Contact</dt>
+				<dd>123-456-7890</dd>
+				<a href="#"><img src="img/mapexample.png"></a>
+			</dl>
+			<p>Host says :
+				Hey, we are gonna chill out on Friday at the planB.
+				If you guys want to join us,
+				don’t hesitate !!! let’s meet at the front of the building.
+			</p>
+		</div>
+	</div>
+	<div class="events-detail-comments-leave">
+		<img src="img/keira.jpg" style="width:40px; height:40px;">
+		<input type="text" class="form-control" placeholder="Text input" style="width:40%;">
+	</div>
+	<div class="events-detail-comments-view">
+		<p><img src="img/keira.jpg" style="width:40px; height:40px;">12312313
+			<button type="button" class="btn btn-default btn-xs">Edit</button>
+			<button type="button" class="btn btn-default btn-xs">Delete</button>
+		</p>
+	</div>
+</div>
+</div>
+
+{% endblock %}

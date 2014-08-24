@@ -1,0 +1,78 @@
+.col-md-4 {
+	width:60%;
+}
+
+.thumbnail > img {
+	max-width: 30%;
+	margin: 0px 0px 0px 30px;
+	display: initial;
+}
+
+.thumbnail > h1 {
+	width: 500px;
+}
+
+.dl-horizontal {
+	width:500px;
+}
+
+.dl-horizontal dt {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.dl-horizontal dd {
+	width:300px;
+}
+
+.caption {
+	width:60%;
+}
+
+.list-group {
+	width:40%;
+}
+
+.form-control {
+	display:table-row;
+}
+
+.events-detail-comments-view {
+	margin-top: 20px;
+}
+
+
+.attendee {
+	left:30px;
+	position: relative;
+	width:700px;
+}
+
+.attendee-button-right {
+	position: relative;
+	margin-top: 24px;
+}
+
+.attendee-button-left {
+	position: absolute;
+	margin-top: 24px;
+}
+
+.attendee > img {
+	width:60px;
+	height: 60px;
+	margin: 5px; 
+}
+
+.attendee-button-left > img {
+	width:15px;
+	height: 15px;
+
+}
+
+.attendee-button-right > img {
+	width:15px;
+	height: 15px;
+	position: relative;
+
+}
