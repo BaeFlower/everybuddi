@@ -32,3 +32,5 @@ class Language(db.Model):
     level = db.Column(db.Integer, nullable=False)
     user_id = db.Column(db.ForeignKey('user.id'))
     user_language = db.relationship('User', backref=db.backref('user_language', cascase='all, delete-orphan', lazy='dynamic'))
+
+
