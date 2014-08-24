@@ -1,4 +1,4 @@
-.breadcrumb {
+.events-header {
 	height:70px;
 	text-align: center;
 	padding-top: 20px;
@@ -7,7 +7,7 @@
 	background-color: #ffffff;
 }
 
-.recent-align {
+.events-third-header {
 	height:50px;
 	text-align: left;
 	font-size:15px;
@@ -18,13 +18,13 @@
 }
 
 
-.dropdown {
+.events-dropdown {
 	width:150px;
 	position: absolute;
 }
 
 
-.btn-block {
+.events-btn-block {
 	width:150px;
 	height: 34px;
 	padding: 0px 16px 0px 16px;
@@ -32,23 +32,23 @@
 	margin: auto;
 }
 
-.organize-btn {
+.events-organize-btn {
 	height:17px;
 	font-size: 14px;
 	padding: 0 0 0 0;
 }
 
-.header {
+.events-header {
 	width:1380px;
 	height:100px;
 }
 
-.second-header {
+.events-second-header {
 	width:1380px;
 	height:34px;
 }
 
-.third-header {
+.events-third-header {
 	width:1380px;
 	height:20px;
 }
