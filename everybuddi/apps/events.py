@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from flask import request, redirect, url_for, render_template, Flask
+from flask import request, redirect, url_for, render_template, Flask, flash
 from apps import app
 from apps.forms import EventsForm
 
@@ -8,6 +8,10 @@ from apps.forms import EventsForm
 @app.route('/events/events_create', methods=['GET', 'POST'])
 def events_create():
     form = EventsForm()
+
+
+
+
 
 
     return render_template('events/events_create.html', form=form)

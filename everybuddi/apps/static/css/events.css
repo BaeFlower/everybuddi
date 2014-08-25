@@ -1,14 +1,17 @@
+.events-frame {
+    float:left;
+
+}
+
 .events-header {
-	height:70px;
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	font-size: 25px;
 	background-color: #ffffff;
+	margin-left: 25%;
+	width: 400px;
 }
 
 .events-third-header {
-	height:50px;
 	text-align: left;
 	font-size:15px;
 	background-color: #ffffff;
@@ -36,31 +39,50 @@
 	height:17px;
 	font-size: 14px;
 	padding: 0 0 0 0;
+	float:right;
 }
 
 .events-header {
-	width:1380px;
-	height:100px;
+	height:60px;
+	margin-bottom: 0px;
+	margin-left: 5%;
 }
 
 .events-second-header {
-	width:1380px;
 	height:34px;
 }
 
 .events-third-header {
-	width:1380px;
 	height:20px;
+	width:750px;
 }
 
-.event-summary-whole {
-	width:1380px;
-	height:auto;
+.events-summary-whole {
+    width:auto;
+    height:auto;
+    margin-top:100px;
 }
 
-.event-summary {
-	margin: 30px;
+.events-summary {
+	margin-right: 10px;
+	display: inline-block;
 	width:322px;
-	height:auto;
 
+}
+
+
+.events-dl-horizontal {
+    text-align: center;
+}
+
+.events-dl-horizontal > a {
+    margin-right:0px;
+    margin-left:0px;
+    display: inline-block;
+    width: 30px;
+}
+
+.events-thumbnail {
+    display: table;
+    margin-top: 50px;
 }
